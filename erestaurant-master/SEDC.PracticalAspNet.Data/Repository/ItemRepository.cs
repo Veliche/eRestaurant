@@ -40,6 +40,7 @@ namespace SEDC.PracticalAspNet.Data.Repository
             dbItem.Price = item.Price;
             dbItem.Description = item.Description;
             dbItem.Contents = item.Contents;
+            DbContext.SaveChanges();
         }
     }
 }
